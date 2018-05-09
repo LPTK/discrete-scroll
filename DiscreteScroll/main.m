@@ -1,9 +1,9 @@
 #import <ApplicationServices/ApplicationServices.h>
 
 #define SIGN(x) (((x) > 0) - ((x) < 0))
-#define LINES 3
-#define QUICK_SCROLL_LIMITATION 100
-#define QUICK_SCROLL_LINES 12
+#define LINES 10
+#define QUICK_SCROLL_LIMITATION 40
+#define QUICK_SCROLL_LINES 20
 
 CGEventRef cgEventCallback(CGEventTapProxy proxy, CGEventType type,
                            CGEventRef event, void *refcon)
